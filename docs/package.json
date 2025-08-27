@@ -1,0 +1,26 @@
+{
+  "name": "im-design-docs",
+  "version": "1.0.0",
+  "description": "IM Design UI Component Library Documentation",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "im-design": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "autoprefixer": "^10.4.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "vitepress": "^1.0.0",
+    "vue": "^3.3.0"
+  }
+}
