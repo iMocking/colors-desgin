@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 组件库基础样式 */
+@layer base {
+    :root {
+        --im-primary: #3b82f6;
+        --im-secondary: #64748b;
+        --im-success: #10b981;
+        --im-warning: #f59e0b;
+        --im-error: #ef4444;
+        --im-info: #0ea5e9;
+    }
+}
+
+/* 组件样式 */
+@layer components {
+    /* 通用组件样式可以在这里定义 */
+    .im-btn-base {
+        @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background;
+    }
+
+    .im-input-base {
+        @apply flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+    }
+}
+
+/* 工具类 */
+@layer utilities {
+    /* 自定义工具类 */
+}
