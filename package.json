@@ -2,14 +2,24 @@
   "name": "colors-design",
   "version": "0.0.2",
   "description": "A Vue 3 UI Component Library",
-  "type": "module",
-  "main": "./dist/im-design.umd.cjs",
-  "module": "./dist/im-design.js",
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iMocking/colors-desgin.git"
+  },
+  "homepage": "https://github.com/iMocking/colors-desgin#readme",
+  "bugs": {
+    "url": "https://github.com/iMocking/colors-desgin/issues"
+  },
+  "lib": {},
+  "main": "./dist/colors-design.umd.cjs",
+  "module": "./dist/colors-design.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/im-design.js",
-      "require": "./dist/im-design.umd.cjs",
+      "import": "./dist/colors-design.js",
+      "require": "./dist/colors-design.umd.cjs",
       "types": "./dist/index.d.ts"
     },
     "./style.css": "./dist/style.css"

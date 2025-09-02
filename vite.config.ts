@@ -8,8 +8,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: resolve(__dirname, 'src/index.ts'),
-            name: 'im-desgin',
-            fileName: 'im-desgin'
+            name: 'ColorsDesign',
+            fileName: 'colors-desgin'
         },
         rollupOptions: {
             external: ['vue'],
