@@ -1,6 +1,6 @@
 {
-  "name": "im-design",
-  "version": "0.0.1",
+  "name": "colors-design",
+  "version": "0.0.2",
   "description": "A Vue 3 UI Component Library",
   "type": "module",
   "main": "./dist/im-design.umd.cjs",
@@ -47,6 +47,5 @@
     "vue-tsc": "^3.0.5"
   },
   "dependencies": {
-    "im-design": "^1.4.50"
   }
 }
